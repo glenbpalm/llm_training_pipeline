@@ -6,7 +6,7 @@ This project demonstrates a distributed, large-scale Language Model (LLM) traini
 
 ## Key Features
 
-- **Model Training**: Train a moderately large language model (e.g., GPT-2) using PyTorch on a distributed infrastructure.
+- **Model Training**: Train a large language model (e.g., GPT-2) using PyTorch on a distributed infrastructure.
 - **Distributed Training**: Implement distributed data-parallel or model-parallel techniques to train the model across multiple machines using Ray.
 - **Model Deployment**: Create a scalable model inference service using Ray Serve for serving predictions.
 - **Evaluation**: Implement a model evaluation pipeline that computes accuracy, perplexity, and inference latency for various configurations.
