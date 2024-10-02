@@ -90,10 +90,10 @@ wandb/
 # Ray results
 ray_results/
 
-# Config files (if you have any local overrides)
+# Config files
 configs/*.yaml
 
-# Secrets (ensure you don't commit any secret keys)
+# Secrets
 *.env
 .env
 
@@ -104,7 +104,7 @@ configs/*.yaml
 *.swp
 *~
 
-# Ignore any other temporary or build files
+# Other temporary or build files
 *.tmp
 *.bak
 *.old
