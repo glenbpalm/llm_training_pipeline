@@ -1,0 +1,110 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Logs and databases
+logs/
+*.log
+*.sqlite
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Data files
+data/processed/
+data/datasets/
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+
+# MLflow artifacts
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# Ray results
+ray_results/
+
+# Config files (if you have any local overrides)
+configs/*.yaml
+
+# Secrets (ensure you don't commit any secret keys)
+*.env
+.env
+
+# Mac OS
+.DS_Store
+
+# Temporary files
+*.swp
+*~
+
+# Ignore any other temporary or build files
+*.tmp
+*.bak
+*.old
